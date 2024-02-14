@@ -30,6 +30,7 @@ a.icon > strong {margin-left:.25rem}
 
 // import everything - alternatively import just what you need: https://bulma.io/documentation/overview/modular/
 @import "~bulma/bulma"; 
+@import "~bulma-timeline";
 
 // // override specific bulma styles
 .navbar {
@@ -48,7 +49,9 @@ a.icon > strong {margin-left:.25rem}
       text-decoration: none;
     }
   }
-
+// .timeline-content {
+//   width: 70%;
+// }
 /* Main content */
 .main {
   margin-top: 52px; /* Add a top margin to avoid content overlay */
